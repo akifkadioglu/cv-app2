@@ -1,0 +1,10 @@
+{
+  "go": "Git",
+  "english": "İngilizce",
+  "turkish": "Türkçe",
+
+  "home.components.pages.github_title":"GitHub",
+  "home.components.pages.github_description": "Github'da paylaştığım repository'lere burdan bakabilirsiniz.",
+  "home.components.pages.projects_title": "Projeler",
+  "home.components.pages.projects_description": "Yaptığım projelerin linklerine buradan bakabilirsiniz."
+}

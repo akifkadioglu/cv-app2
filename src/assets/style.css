@@ -1,0 +1,36 @@
+/* fade animation */
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+/* fade animation */
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 20;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* scroll bar */
+
+.contents {
+  margin: auto;
+  max-width: 750px;
+}

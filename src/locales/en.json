@@ -1,0 +1,10 @@
+{
+  "go": "Go",
+  "english": "English",
+  "turkish": "Turkish",
+
+  "home.components.pages.github_title":"GitHub",
+  "home.components.pages.github_description": "Repositories I've shared on Github",
+  "home.components.pages.projects_title": "Projects",
+  "home.components.pages.projects_description": "You can see the links of my projects here."
+}
