@@ -3,8 +3,9 @@
   "english": "İngilizce",
   "turkish": "Türkçe",
 
-  "home.components.pages.github_title":"GitHub",
-  "home.components.pages.github_description": "Github'da paylaştığım repository'lere burdan bakabilirsiniz.",
+  "home.components.pages.github_title": "GitHub",
+  "home.components.pages.github_description": "Github hesabım ve repository'lerim.",
   "home.components.pages.projects_title": "Projeler",
-  "home.components.pages.projects_description": "Yaptığım projelerin linklerine buradan bakabilirsiniz."
+  "home.components.pages.projects_description": "Gelecekteki projelerimi burada paylaşacağım.",
+  "home.components.pages.resume_title": "Özgeçmiş"
 }

@@ -1,11 +1,7 @@
 <template>
   <div>
-    <v-card-title primary-text class="text-center">
-      Akif Kadıoğlu
-    </v-card-title>
-    <v-card-text>
-     Golang - Vue -Flutter
-    </v-card-text>
+    <div class="text-center text-h5 mt-3">Akif Kadıoğlu</div>
+    <v-card-text> Golang - Vue - Flutter </v-card-text>
   </div>
 </template>
 

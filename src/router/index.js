@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home/View.vue'
-import GithubRepos from '../views/Pages/GithubRepos/View.vue'
+import Projects from '../views/Pages/Projects/View.vue'
 import { routeName } from './routeName'
 
 Vue.use(VueRouter)
@@ -15,7 +15,7 @@ const routes = [
   {
     path: '/projects',
     name: routeName.PROJECTS,
-    component: GithubRepos
+    component: Projects
   },
   {
     path: '*',
