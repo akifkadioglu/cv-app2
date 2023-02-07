@@ -1,30 +1,32 @@
 <template>
   <v-container>
-    <v-row dense>
-      <v-col v-for="(item, i) in items" :key="i" cols="12">
-        <v-card
-          :to="item.routeName ? { name: item.routeName } : ''"
-          :href="item.routeName ? '' : item.route"
-          depressed
-          :target="item.routeName ? '' : '_blank'"
-          :color="item.color"
-          dark
-          tile
-          outlined
-        >
-          <div class="d-flex flex-no-wrap justify-space-between">
-            <div>
-              <v-card-title class="text-h5" v-text="$t(item.title)" />
-              <v-card-subtitle class="text-start">
-                <p :style="'background:' + item.color">
-                  {{ $t(item.content) }}
-                </p>
-              </v-card-subtitle>
+    <v-lazy v-model="isActive" transition="scroll-y-reverse-transition">
+      <v-row dense>
+        <v-col v-for="(item, i) in items" :key="i" cols="12">
+          <v-card
+            :to="item.routeName ? { name: item.routeName } : ''"
+            :href="item.routeName ? '' : item.route"
+            depressed
+            :target="item.routeName ? '' : '_blank'"
+            :color="item.color"
+            dark
+            tile
+            outlined
+          >
+            <div class="d-flex flex-no-wrap justify-space-between">
+              <div>
+                <v-card-title class="text-h5" v-text="$t(item.title)" />
+                <v-card-subtitle class="text-start">
+                  <p :style="'background:' + item.color">
+                    {{ $t(item.content) }}
+                  </p>
+                </v-card-subtitle>
+              </div>
             </div>
-          </div>
-        </v-card>
-      </v-col>
-    </v-row>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-lazy>
   </v-container>
 </template>
 
@@ -36,6 +38,8 @@ export default {
   name: "Home-Pages",
 
   data: () => ({
+    isActive: false,
+
     items: [
       {
         color: "#0078a6",

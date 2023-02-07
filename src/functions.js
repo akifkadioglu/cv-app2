@@ -10,6 +10,14 @@ export const functions = {
             vuetify.theme.dark.toString()
         );
     },
+    isMobile() {
+        if (screen.width <= 760) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    },
     switchLanguage(code) {
         var langCode
         switch (code) {

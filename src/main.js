@@ -7,7 +7,6 @@ import vuetify from './plugins/vuetify'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import i18n from './i18n'
-import CursorFx from '@luxdamore/vue-cursor-fx';
 
 import { routeName } from './router/routeName'
 import { keys } from './locales/keys'
@@ -30,7 +29,6 @@ new Vue({
   store,
   vuetify,
   i18n,
-  CursorFx,
   VueAxios,
   axios,
   render: h => h(App)
