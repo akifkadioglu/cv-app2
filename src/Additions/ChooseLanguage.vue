@@ -9,7 +9,7 @@
       content-class="elevation-1"
     >
       <template v-slot:activator="{ on, attrs }">
-        <v-btn depressed fab v-bind="attrs" v-on="on" color="#00000000">
+        <v-btn aria-label="change_language" depressed fab v-bind="attrs" v-on="on" color="#00000000">
           <v-icon>
             {{ $icons.LANGUAGE }}
           </v-icon>

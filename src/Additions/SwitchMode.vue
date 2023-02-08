@@ -1,6 +1,7 @@
 <template>
   <div class="switch-mode">
     <v-btn
+      aria-label="switch_mode"
       depressed
       fab
       @click="$functions.switchMode($vuetify)"

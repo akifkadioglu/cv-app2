@@ -1,7 +1,14 @@
 <template>
   <v-app class="wrap">
     <div class="home-bg-position">
-      <img class="home-bg" src="@/assets/bg.png" />
+      <img
+        class="home-bg"
+        src="@/assets/bg.webp"
+        alt="background"
+        width="1490px"
+        rel="preload"
+        height="2233px"
+      />
     </div>
     <v-main>
       <transition name="scroll-y-reverse-transition" mode="out-in">

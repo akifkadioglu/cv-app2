@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="text-center text-h5 mt-3">Akif Kadıoğlu</div>
-    <v-card-text> Golang - Vue - Flutter </v-card-text>
+    <div class="text-center text-h5 mt-3 text-f">Akif Kadıoğlu</div>
+    <v-card-text class="text-f"> Golang - Vue - Flutter </v-card-text>
   </div>
 </template>
 

@@ -24,3 +24,7 @@
 .app-row {
   display: flex;
 }
+
+.text-f {
+  font-display: swap;
+}

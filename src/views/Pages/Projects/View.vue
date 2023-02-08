@@ -9,11 +9,10 @@
           :index="index"
         >
           <v-card outlined>
-            <v-img :src="item.img" />
+            <v-img :src="item.img" rel="preload" :alt="item.title" />
 
             <v-card-actions>
               <PrimaryButton :title="item.title" @click="getContent(index)" />
-              
             </v-card-actions>
           </v-card>
         </slide>
