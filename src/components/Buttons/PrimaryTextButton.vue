@@ -8,6 +8,7 @@
     target="_blank"
     class="overline font-weight-bold"
     @click="$emit('click')"
+    :aria-label="title"
   >
     {{ title }}
   </v-btn>
