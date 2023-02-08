@@ -1,3 +1,4 @@
+
 import Vue from 'vue'
 import App from './App.vue'
 import './registerServiceWorker'
@@ -15,7 +16,7 @@ import { icons } from './icons'
 import { functions } from './functions'
 
 import "./assets/style.css"
-
+import '@mdi/font/css/materialdesignicons.css'
 
 Vue.config.productionTip = false
 Vue.prototype.$routeName = routeName

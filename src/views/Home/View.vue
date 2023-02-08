@@ -3,7 +3,7 @@
     
     <v-container>
       <div class="text-center contents">
-        <Avatar class="component-positions" />
+        <Avatar class="component-positions mt-5" />
         <Informations class="component-positions" />
         <Pages class="mt-5 component-positions" />
       </div>
