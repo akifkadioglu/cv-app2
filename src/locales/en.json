@@ -2,10 +2,13 @@
   "go": "Go",
   "english": "English",
   "turkish": "Turkish",
+  "visit": "Visit",
 
   "home.components.pages.github_title": "GitHub",
   "home.components.pages.github_description": "My Github account and repositories",
   "home.components.pages.projects_title": "Projects",
   "home.components.pages.projects_description": "Published projects.",
-  "home.components.pages.resume_title": "Resume"
+  "home.components.pages.resume_title": "Resume",
+
+  "project.view.page.p_okul_description": "P-Okul is a note sharing application written for Pamukkale University."
 }

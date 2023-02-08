@@ -1,7 +1,7 @@
 <template>
   <v-app class="wrap">
     <div class="home-bg-position">
-      <img class="home-bg" src="@/assets/sketch1675786720179.png" />
+      <img class="home-bg" src="@/assets/bg.png" />
     </div>
     <v-main>
       <transition name="scroll-y-reverse-transition" mode="out-in">
@@ -15,9 +15,9 @@
 </template>
 
 <script>
-import ChooseLanguage from "./components/ChooseLanguage.vue";
-import SwitchMode from "./components/SwitchMode.vue";
-import Footer from "./components/Footer.vue";
+import ChooseLanguage from "./Additions/ChooseLanguage.vue";
+import SwitchMode from "./Additions/SwitchMode.vue";
+import Footer from "./Additions/Footer.vue";
 import "@luxdamore/vue-cursor-fx/dist/CursorFx.css";
 
 export default {
