@@ -8,10 +8,9 @@
         prev-icon="mdi-arrow-left"
         show-arrows
         height="80px"
-        :role="$keys.CONTACTS"
       >
         <div
-          :role="item.title"
+          role="Application"
           v-for="(item, index) in contacts"
           :key="index"
           class="ml-5 mr-5"
