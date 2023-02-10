@@ -8,8 +8,14 @@
         prev-icon="mdi-arrow-left"
         show-arrows
         height="80px"
+        :role="$keys.CONTACTS"
       >
-        <div v-for="(item, index) in contacts" :key="index" class="ml-5 mr-5">
+        <div
+          :role="item.title"
+          v-for="(item, index) in contacts"
+          :key="index"
+          class="ml-5 mr-5"
+        >
           <v-btn
             :aria-label="item.title"
             :href="item.url"
