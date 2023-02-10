@@ -9,24 +9,20 @@
         show-arrows
         height="80px"
         aria-label="contacts"
+        icons-and-text
       >
-        <div
-          role="application"
+        <v-tabs-slider color="transparent" />
+
+        <v-tab
           v-for="(item, index) in contacts"
           :key="index"
-          class="ml-5 mr-5"
+          :href="item.url"
+          class="ml-5 mr-5 text--secondary"
+          target="_blank"
         >
-          <v-btn
-            :aria-label="item.title"
-            :href="item.url"
-            target="_blank"
-            fab
-            icon
-          >
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-btn>
-          <div class="text--secondary">{{ item.title }}</div>
-        </div>
+          <sub class="caption">{{ item.title }}</sub>
+          <v-icon>{{ item.icon }}</v-icon>
+        </v-tab>
       </v-tabs>
     </div>
   </div>
@@ -38,6 +34,7 @@ export default {
   components: {
     TitleWithDivider,
   },
+
   data() {
     return {
       contacts: [
@@ -71,7 +68,6 @@ export default {
           title: "Instagram",
           url: "https://www.instagram.com/akifkadioglu",
         },
-
         {
           icon: this.$icons.TEXT,
           title: "Medium",
@@ -82,3 +78,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.v-tabs__item--active {
+  color: green;
+}
+</style>
