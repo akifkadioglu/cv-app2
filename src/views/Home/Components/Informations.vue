@@ -22,9 +22,9 @@ export default {
       talents: [
         this.$icons.GO,
         this.$icons.VUE,
-        this.$icons.FLUTTER,
         this.$icons.JAVASCRIPT,
         this.$icons.LARAVEL,
+        this.$icons.PHP,
       ],
     };
   },
