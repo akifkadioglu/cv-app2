@@ -8,6 +8,7 @@
         prev-icon="mdi-arrow-left"
         show-arrows
         height="80px"
+        aria-label="contacts"
       >
         <div
           role="application"
