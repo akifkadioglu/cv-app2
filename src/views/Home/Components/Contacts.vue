@@ -10,7 +10,7 @@
         height="80px"
       >
         <div
-          role="Application"
+          role="application"
           v-for="(item, index) in contacts"
           :key="index"
           class="ml-5 mr-5"
