@@ -3,12 +3,14 @@
   "english": "İngilizce",
   "turkish": "Türkçe",
   "visit": "Ziyaret et",
-
+  "contacts": "İletişim",
+  
   "home.components.pages.github_title": "GitHub",
   "home.components.pages.github_description": "Github hesabım ve repository'lerim.",
   "home.components.pages.projects_title": "Projeler",
   "home.components.pages.projects_description": "Yayındaki projelerim.",
   "home.components.pages.resume_title": "Özgeçmiş",
 
-  "project.view.page.p_okul_description": "P-Okul, Pamukkale Üniversitesi için yazılmış bir not paylaşım uygulamasıdır."
+  "project.view.page.p_okul_description": "P-Okul, Pamukkale Üniversitesi için yazılmış bir not paylaşım uygulamasıdır.",
+  "project.view.page.kadiog_description": "Kadiog, Echo ve Gorm kütüphanelerini kullanarak oluşturulmuş bir API kurulumudur."
 }

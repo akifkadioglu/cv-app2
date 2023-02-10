@@ -28,3 +28,8 @@
 .text-f {
   font-display: swap;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}

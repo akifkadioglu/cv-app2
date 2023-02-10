@@ -17,21 +17,18 @@
     </v-main>
     <ChooseLanguage />
     <SwitchMode />
-    <Footer />
   </v-app>
 </template>
 
 <script>
 import ChooseLanguage from "./Additions/ChooseLanguage.vue";
 import SwitchMode from "./Additions/SwitchMode.vue";
-import Footer from "./Additions/Footer.vue";
 import "@luxdamore/vue-cursor-fx/dist/CursorFx.css";
 
 export default {
   components: {
     ChooseLanguage,
     SwitchMode,
-    Footer,
   },
   name: "App",
 };
@@ -40,7 +37,6 @@ export default {
 .wrap {
   overflow: hidden;
   position: relative;
-  height: 100vh;
 }
 
 .home-bg {

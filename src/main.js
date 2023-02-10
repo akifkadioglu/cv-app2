@@ -16,6 +16,7 @@ import { icons } from './icons'
 import { functions } from './functions'
 
 import "./assets/style.css"
+import 'material-design-icons-iconfont/dist/material-design-icons.css' // Ensure you are using css-loader
 import '@mdi/font/css/materialdesignicons.css'
 
 Vue.config.productionTip = false

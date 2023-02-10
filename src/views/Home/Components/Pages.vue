@@ -55,13 +55,7 @@ export default {
         routeName: routeName.PROJECTS,
         route: "",
       },
-      {
-        color: "#00223c",
-        title: keys.HOME_COMPONENTS_PAGES__GITHUB_TITLE,
-        content: keys.HOME_COMPONENTS_PAGES__GITHUB_DESCRIPTIONS,
-        routeName: "",
-        route: "https://github.com/akifkadioglu?tab=repositories",
-      },
+      
     ],
   }),
 };
