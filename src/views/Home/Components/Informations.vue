@@ -20,9 +20,9 @@ export default {
       isMobile: this.$functions.isMobile(),
 
       talents: [
-        this.$icons.GO,
-        this.$icons.VUE,
         this.$icons.JAVASCRIPT,
+        this.$icons.VUE,
+        this.$icons.GO,
         this.$icons.LARAVEL,
         this.$icons.PHP,
       ],
