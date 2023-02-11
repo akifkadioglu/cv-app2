@@ -2,7 +2,7 @@
   <div>
     <div class="text-center text-h5 mt-3 text-f">Akif Kadıoğlu</div>
     <v-icon
-      class="ml-5 mr-5 mt-2 mb-2"
+      class="ml-5 mr-5 mt-5"
       :size="isMobile ? 25 : 40"
       v-for="(item, index) in talents"
       :key="index"

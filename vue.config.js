@@ -5,7 +5,14 @@ module.exports = {
       exclude: ['_redirects'],
     },
   },
+
   transpileDependencies: [
     'vuetify'
-  ]
+  ],
+
+  publicPath: '',
+
+  pluginOptions: {
+    cordovaPath: 'src-cordova'
+  }
 }

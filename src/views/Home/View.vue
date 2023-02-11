@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <div class="text-center contents">
-      <Avatar class="component-positions mt-5" />
+      <Avatar class="component-positions distance" />
       <Informations class="component-positions" />
       <Pages class="mt-5 component-positions" />
       <Contacts class="mt-5" />
@@ -29,5 +29,8 @@ export default {
 .component-positions {
   z-index: 1;
   position: relative;
+}
+.distance {
+  margin-top: 60px;
 }
 </style>
