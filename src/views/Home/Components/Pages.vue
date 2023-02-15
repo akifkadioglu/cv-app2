@@ -15,9 +15,9 @@
           >
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
-                <v-card-title class="text-h5 text-f" v-text="$t(item.title)" />
+                <v-card-title class="text-h5 " v-text="$t(item.title)" />
                 <v-card-subtitle class="text-start">
-                  <p :style="'background:' + item.color" class="text-f">
+                  <p :style="'background:' + item.color" class="">
                     {{ $t(item.content) }}
                   </p>
                 </v-card-subtitle>
