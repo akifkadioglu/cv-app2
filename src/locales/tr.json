@@ -12,5 +12,7 @@
   "home.components.pages.resume_title": "Özgeçmiş",
 
   "project.view.page.p_okul_description": "P-Okul, Pamukkale Üniversitesi için yazılmış bir not paylaşım uygulamasıdır.",
-  "project.view.page.kadiog_description": "Kadiog, Echo ve Gorm kütüphanelerini kullanarak oluşturulmuş bir API kurulumudur."
+  "project.view.page.kadiog_description": "Kadiog, Echo ve Gorm kütüphanelerini kullanarak oluşturulmuş bir API kurulumudur.",
+  "project.view.page.bmi_calculator_description":"BMI Calculator, vücut kitle indeksinizi ölçmeye yarayan bir android uygulamasıdır."
+
 }

@@ -12,5 +12,7 @@
   "home.components.pages.resume_title": "Resume",
 
   "project.view.page.p_okul_description": "P-Okul is a note sharing application written for Pamukkale University.",
-  "project.view.page.kadiog_description": "Kadiog is an API setup using Echo and Gorm libraries."
+  "project.view.page.kadiog_description": "Kadiog is an API setup using Echo and Gorm libraries.",
+  "project.view.page.bmi_calculator_description":"BMI Calculator is an android app for calculate your body mass index."
+
 }
