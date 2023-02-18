@@ -46,7 +46,7 @@ export default {
         {
           icon: this.$icons.EXPO,
           title: "Expo",
-          url: "https://expo.dev/accounts/akifkadioglu",
+          url: "https://expo.dev/@akifkadioglu",
         },
         {
           icon: this.$icons.LINKEDIN,
