@@ -3,6 +3,7 @@ export const icons = {
     DARKMODE:   'mdi-weather-night',
     GITHUB:     'mdi-github',
     LINKEDIN:   'mdi-linkedin',
+    EXPO:       'mdi-chevron-up',
     MAIL:       'email',
     TWITTER:    'mdi-twitter',
     TELEGRAM:   'telegram',
@@ -14,5 +15,6 @@ export const icons = {
     FLUTTER:    'flutter_dash',
     LARAVEL:    'mdi-laravel',
     PHP:        'php',
-    JAVASCRIPT: 'javascript'
+    JAVASCRIPT: 'javascript',
+    REACT:      'mdi-react',
 }

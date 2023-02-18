@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="text-center text-h5 mt-3">Akif Kadıoğlu</div>
+
     <v-icon
       class="ml-5 mr-5 mt-5"
       :size="isMobile ? 25 : 40"
@@ -21,9 +22,9 @@ export default {
 
       talents: [
         this.$icons.JAVASCRIPT,
-        this.$icons.VUE,
+        this.$icons.REACT,
         this.$icons.GO,
-        this.$icons.LARAVEL,
+        this.$icons.VUE,
         this.$icons.PHP,
       ],
     };

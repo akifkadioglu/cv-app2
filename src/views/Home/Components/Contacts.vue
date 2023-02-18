@@ -44,6 +44,11 @@ export default {
           url: "https://github.com/akifkadioglu",
         },
         {
+          icon: this.$icons.EXPO,
+          title: "Expo",
+          url: "https://expo.dev/accounts/akifkadioglu",
+        },
+        {
           icon: this.$icons.LINKEDIN,
           title: "LinkedIn",
           url: "https://www.linkedin.com/in/akif-kadioglu-88429a1b2/",
