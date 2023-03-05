@@ -14,6 +14,6 @@ export const keys = {
     PROJECT_VIEW_PAGE__P_OKUL_DESCRIPTION:          'project.view.page.p_okul_description',
     PROJECT_VIEW_PAGE__KADIOG_DESCRIPTION:          'project.view.page.kadiog_description',
     PROJECT_VIEW_PAGE__BMI_CALCULATOR_DESCRIPTION:  'project.view.page.bmi_calculator_description',
-    
+    PROJECT_VIEW_PAGE__WEATHER_APP_DESCRIPTION:     'project.view.page.weather_app_description'
 
 }

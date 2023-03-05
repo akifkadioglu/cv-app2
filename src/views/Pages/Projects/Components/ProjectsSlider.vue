@@ -56,12 +56,17 @@ export default {
           img: require("@/assets/projectsIcons/kadiog.webp"),
           link: "https://github.com/akifkadioglu/kadiog",
         },
-
         {
           content: this.$keys.PROJECT_VIEW_PAGE__BMI_CALCULATOR_DESCRIPTION,
           title: "BMI Calculator",
           img: require("@/assets/projectsIcons/bmi_calculator.webp"),
           link: "https://play.google.com/store/apps/details?id=com.akifkadioglu.bmi_calculator",
+        },
+        {
+          content: this.$keys.PROJECT_VIEW_PAGE__WEATHER_APP_DESCRIPTION,
+          title: "Weather App",
+          img: require("@/assets/projectsIcons/weather_app.webp"),
+          link: "https://play.google.com/store/apps/details?id=com.akifkadioglu.weather_app_flutter",
         },
       ],
     };
